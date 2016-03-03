@@ -7,7 +7,7 @@ using StackExchange.Profiling;
 using StackExchange.Profiling.Storage;
 
 
-namespace VXCore.MiniProfiler
+namespace VXCore.NLog.MiniProfiler
 {
   /// <summary>
   /// Enables <see cref="T:StackExchange.Profiling.MiniProfiler"/> to write its logs into NLog event log
