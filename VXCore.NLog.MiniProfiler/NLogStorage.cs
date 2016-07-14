@@ -43,7 +43,11 @@ namespace VXCore.NLog.MiniProfiler
       _logAsLevel = logAsLevel;
     }
 
-
+    /// <summary>
+    /// Sets <see cref="NLogStorage"/> as default <see cref="StackExchange.Profiling.MiniProfiler"/> storage
+    /// </summary>
+    /// <param name="logger">Logger to be used to log <see cref="StackExchange.Profiling.MiniProfiler"/> results</param>
+    /// <param name="logAsLevel">Specifies log level for logged <see cref="StackExchange.Profiling.MiniProfiler"/> results</param>
     public static void SetAsStorage(Logger logger = null, LogLevel logAsLevel = null)
     {
       StackExchange.Profiling.MiniProfiler.Settings.Storage =
