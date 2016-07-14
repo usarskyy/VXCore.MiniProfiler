@@ -2,13 +2,14 @@
 <package >
   <metadata>
     <id>VXCore.NLog.MiniProfiler</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Volodymyr Usarskyy</authors>
     <owners>Volodymyr Usarskyy</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/usarskyy/VXCore.MiniProfiler</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>NLog storage for MiniProfiler logs</description>
+    <title>NLog storage for MiniProfiler logs</title>
+	<description>NLog storage for MiniProfiler logs</description>
     <releaseNotes>Initial version</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>NLog MiniProfiler logging</tags>
@@ -20,5 +21,6 @@
   <files>
 	<file src="VXCore.NLog.MiniProfiler\bin\Release\VXCore.NLog.MiniProfiler.dll" target="lib\net40" />
 	<file src="VXCore.NLog.MiniProfiler\bin\Release\VXCore.NLog.MiniProfiler.pdb" target="lib\net40" />
+	<file src="VXCore.NLog.MiniProfiler\bin\Release\VXCore.NLog.MiniProfiler.XML" target="lib\net40" />
   </files>
 </package>
